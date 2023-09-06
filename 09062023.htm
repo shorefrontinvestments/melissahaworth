@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        font-size: 14px; /* Made the font slightly smaller */
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border: 2px solid #38B6FF;
+    }
+    .property {
+        margin-bottom: 40px; /* Increased spacing between properties */
+    }
+    .property-title {
+        font-weight: bold;
+        color: #8B4513;
+        margin-bottom: 20px; /* Increased spacing for more breathing room */
+    }
+    .property-details {
+        margin-bottom: 15px; /* Increased spacing between details */
+    }
+    .property-details b {
+        font-weight: bold;
+    }
+    .property-link {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #38B6FF;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-weight: bold; /* Made "View Property" bold */
+    }
+    .property-link:hover {
+        background-color: #2a8fbd;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .container {
+            margin: 10px 5px;
+            padding: 15px;
+        }
+        .property-details, .property-title {
+            font-size: 0.85em; /* Adjusted font size for mobile */
+        }
+        .property-link {
+            font-size: 0.8em;
+            padding: 8px 16px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="property">
+        <div class="property-title">6103 Beach Drive, Panama City Beach, FL 32408</div>
+        <div class="property-details"><b>Purchase price:</b> $475,000</div>
+        <div class="property-details"><b>Short term rental:</b> $40k-$60k</div>
+        <div class="property-details"><b>Comps:</b> $477,984</div>
+        <div class="property-details"><a href="https://www.flexmls.com/share/9EqEw/6103-Beach-Drive-Panama-City-Beach-FL-32408" class="property-link">View Property</a></div>
+    </div>
+
+    <div class="property">
+        <div class="property-title">17214 Front Beach Road T31, Panama City Beach, FL 32413</div>
+        <div class="property-details"><b>Purchase price:</b> $334,300</div>
+        <div class="property-details"><b>Short term rental:</b> $25k-$45k</div>
+        <div class="property-details"><b>Comps:</b> $333,696</div>
+        <div class="property-details"><a href="https://www.flexmls.com/share/9Eq1I/17214-Front-Beach-Road-T31-Panama-City-Beach-FL-32413" class="property-link">View Property</a></div>
+    </div>
+</div>
+
+</body>
+</html>
